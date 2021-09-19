@@ -124,7 +124,7 @@ body {
 
 .main__text {
   width: 500px;
-  line-height: 70px;
+  line-height: 80px;
 }
 .main__text h1 {
   font-size: 60px;
@@ -134,7 +134,6 @@ body {
 }
 
 .main__text h1 span {
-  font-size: larger;
   background: #ff0000;
   background-image: linear-gradient(to right, #ff8a00, #ff0000);
   -webkit-background-clip: text;
