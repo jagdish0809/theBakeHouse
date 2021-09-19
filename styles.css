@@ -123,13 +123,14 @@ body {
 }
 
 .main__text {
-  width: 450px;
+  width: 500px;
   line-height: 70px;
 }
 .main__text h1 {
   font-size: 60px;
   color: #692c00;
   word-spacing: 8px;
+  font-family: 'Merienda', cursive;
 }
 
 .main__text h1 span {
@@ -152,7 +153,7 @@ body {
   color: #00000088;
 }
 
-.order__button {
+.button {
   margin-top: 50px;
   height: 40px;
   width: 200px;
@@ -160,19 +161,32 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background: #833ab4;
   background: -webkit-linear-gradient(to right, #ff0000, #ff8a00);
   background: linear-gradient(to right, #ff0000, #ff8a00);
-  color: #fff;
-  transition: all 0.3 ease;
+  background-size: 300% 100%;
+  -o-transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
 }
 
 .order__button a {
+  text-align: center;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: #fff;
   font-weight: bold;
+  transition: all 1s ease;
 }
+
+.button:hover{
+  background-position: 100% 0%;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
 
 .picture {
   margin-right: 130px;
@@ -194,6 +208,6 @@ body {
 }
 .picture img {
   margin-bottom: 150px;
-  width: 380px;
+  width: 500px;
   z-index: 1;
 }
