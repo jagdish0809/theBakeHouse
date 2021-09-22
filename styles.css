@@ -255,6 +255,7 @@ body {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: #fff;
+  border-radius: 20px;
   font-weight: bold;
   transition: all 1s ease;
 }
@@ -397,6 +398,7 @@ body {
 
   .button{
     margin-top: 20px;
+
   }
 
   .order__button{
