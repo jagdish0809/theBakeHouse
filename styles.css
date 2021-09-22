@@ -361,6 +361,8 @@ body {
   }
 
   .landing__container {
+    height: auto;
+    width: auto;
     border-radius: 30px;
     flex-direction: column-reverse;
   }
@@ -371,9 +373,9 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* width: 50px; */
     margin-left: 0;
     padding-bottom: 20px;
+    margin-top: 20px;
   }
 
   .main__text{
@@ -407,6 +409,7 @@ body {
 
   .picture{
     margin-right: 0;
+    margin-top: 20px;
   }
 
   .picture img{
