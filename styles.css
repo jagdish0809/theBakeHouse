@@ -235,8 +235,6 @@ body {
 
 .button {
   margin-top: 50px;
-  height: 40px;
-  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -251,6 +249,8 @@ body {
 }
 
 .order__button a {
+  height: 40px;
+  width: 200px;
   text-align: center;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -346,7 +346,69 @@ body {
     display: none;
   }
 
+  #navbar__logo{
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #navbar__logo img{
+    width: 200px;
+    height: auto;
+  }
+
   .landing__container {
-    display: table;
+    border-radius: 30px;
+    flex-direction: column-reverse;
+  }
+
+  .contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* width: 50px; */
+    margin-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .main__text{
+    line-height: normal;
+    width: 70vw;
+    margin-bottom: 0;
+  }
+
+  .main__text h1{
+    font-size: 30px;
+  }
+
+  .lt__text{
+    line-height: normal;
+    width: 90vw;
+    margin-bottom: 0;
+  }
+
+  .lt__text p{
+    font-size: 14px;
+  }
+
+  .button{
+    margin-top: 20px;
+  }
+
+  .order__button{
+    margin-top: 0;
+  }
+
+  .picture{
+    margin-right: 0;
+  }
+
+  .picture img{
+    margin-bottom: 0;
+    width: 250px;
   }
 }
